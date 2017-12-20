@@ -11,10 +11,10 @@ node('master') {
    }
 
 
-   stage 'Test Case'
+   stage 'Deploy'
         echo 'Test Case will running'
 
-   stage 'Reporting'
+   stage 'Testing'
         echo 'Reporting Getting Creating'
 
    stage 'Job Status Status'
